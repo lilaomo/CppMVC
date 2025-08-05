@@ -1,0 +1,25 @@
+{
+	"log": {
+		"hour": 0,
+		"min": 0,
+		"level": 2,
+		"flush_sec": 30
+	},
+	"server": {
+		"ip": "0.0.0.0",
+		"port": "8081",
+		"keep_alive_timeout": 600
+	},
+	"database": {
+		"mysql": {
+			"ip": "127.0.0.1",
+			"port": 3306,
+			"user": "root",
+			"pwd": "lilaomo",
+			"db": "wdtlxj"
+		},
+		"sqlite": {
+			"path": "system.db"
+		}
+	}
+}

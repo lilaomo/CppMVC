@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="aspect">
+      <UniqueIdentifier>{272c57b3-df87-42e5-a1c4-10e10fb07ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{f1b2d3fa-565a-41ae-8652-5ea83dfaa7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller">
+      <UniqueIdentifier>{64ea7d38-09d0-4c73-bab9-359bd97e7a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DAO">
+      <UniqueIdentifier>{012bdd23-5a18-4d7a-ae54-a090251c5121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{2b944dfb-8bb9-47d1-944c-2ea6c52cb653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{b5be2a3d-d6af-4bd0-819c-e45f31eda11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{bc8dc065-5f6f-48e3-a056-39416f4e0295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="const">
+      <UniqueIdentifier>{9905bc44-3077-483a-89db-ece980a4a88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DAO\sqlite">
+      <UniqueIdentifier>{34b8cc8c-d996-4e39-96fa-b657ee344275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DAO\mysql">
+      <UniqueIdentifier>{b27b6dcb-fdcf-47a7-b408-ff2181f05020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service\impl">
+      <UniqueIdentifier>{9ad8c9ce-1f8a-4e75-904f-511e5233e443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller\impl">
+      <UniqueIdentifier>{c6cd0386-df62-45c4-9eab-7774ce4f3041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logger">
+      <UniqueIdentifier>{a6e27565-c63c-4553-aec0-623344c524ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CppMVC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DAO\sqlite\sqlite_handler.cpp">
+      <Filter>DAO\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="DAO\mysql\mysql_handler.cpp">
+      <Filter>DAO\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\impl\user_ctrller.cpp">
+      <Filter>controller\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\impl\role_ctrller.cpp">
+      <Filter>controller\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\impl\permission_ctrller.cpp">
+      <Filter>controller\impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utility\reflection.hpp">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\db_utility.hpp">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="const\const_define.h">
+      <Filter>const</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\llm_utility.hpp">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO\user_DAO.hpp">
+      <Filter>DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="config\cfg.hpp">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO\common_DAO.hpp">
+      <Filter>DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO\sqlite\sqlite_handler.h">
+      <Filter>DAO\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO\mysql\mysql_handler.h">
+      <Filter>DAO\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="model\user_model.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO\role_DAO.hpp">
+      <Filter>DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO\permission_DAO.hpp">
+      <Filter>DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="model\role_model.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\permission_model.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="service\user_service.hpp">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="service\impl\user_serv_impl.hpp">
+      <Filter>service\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="service\impl\permission_serv_impl.hpp">
+      <Filter>service\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="service\impl\role_serv_impl.hpp">
+      <Filter>service\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="service\permission_service.hpp">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="service\role_service.hpp">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\user_ctrller.h">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="server.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\common_ctrller.hpp">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="logger\logger.hpp">
+      <Filter>logger</Filter>
+    </ClInclude>
+    <ClInclude Include="aspect\api_aspect.h">
+      <Filter>aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="aspect\base_aspect.h">
+      <Filter>aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="aspect\token_aspect.h">
+      <Filter>aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\model_utility.hpp">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\permission_ctrller.h">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\role_ctrller.h">
+      <Filter>controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
